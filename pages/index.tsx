@@ -114,7 +114,7 @@ const Home: NextPage = () => {
                                         {plan.pros.map((pro, i) =>
                                             <div key={i} className={styles.plansCardProsItem}>
                                                 <div className={styles.plansCardProsItemCheck}>
-                                                    <svg role="img" focusable="false" height="24" width="24"
+                                                    <svg role="img" height="24" width="24"
                                                          viewBox="0 0 24 24"
                                                          aria-label="" className="Svg-ytk21e-0 fJEWJR">
                                                         <polyline points="3.32 12.86 8.9 19.4 20.99 5.26" fill="none"
