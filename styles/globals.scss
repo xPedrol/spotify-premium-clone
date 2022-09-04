@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  //font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+@font-face {
+  font-family: CircularSpotifyTextBlack;
+  src: url('../public/circularSpotifyText-Black.otf') format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: CircularSpotifyTextMedium;
+  src: url('../public/CircularSpotifyText-Medium.otf') format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: CircularSpotifyTextBook;
+  src: url('../public/CircularSpotifyText-Book.otf') format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: CircularSpotifyTextLight;
+  src: url('../public/CircularSpotifyText-Light.otf') format("opentype");
+  font-weight: bold;
+}
+

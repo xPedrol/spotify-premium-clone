@@ -1,0 +1,260 @@
+.container {
+
+}
+
+.banner {
+  width: 100%;
+  height: 541px;
+  background-color: #993399;
+}
+
+.bannerContainer {
+  height: 100%;
+  max-width: 1140px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+}
+
+.bannerText {
+  margin: 0 32px 0 0;
+  padding: 72px 0 40px;
+  color: white;
+}
+
+.bannerTextH {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: CircularSpotifyTextBlack, serif !important;
+}
+
+.bannerTextP {
+  margin: 30px 0 0;
+  font-size: 24px;
+  font-family: CircularSpotifyTextBook, serif !important;
+}
+
+.bannerFooterP {
+  font-size: 11px;
+  font-family: CircularSpotifyTextBook, serif !important;
+}
+
+.bannerImg {
+  width: 400px;
+  height: 400px;
+
+  img {
+    min-width: 400px;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.bannerButtons {
+  margin: 35px 0 0;
+}
+
+.freeMonthsBtn {
+  margin-right: 8px;
+  padding: 14px 32px;
+  border: 2px solid rgb(25, 20, 20);
+  border-radius: 500px;
+  text-transform: uppercase;
+  background-color: #191414 !important;
+  color: white;
+  font-family: CircularSpotifyTextMedium, serif !important;
+  font-size: 14px;
+}
+
+.plansBtn {
+  margin-right: 8px;
+  padding: 14px 32px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 500px;
+  text-transform: uppercase;
+  background-color: transparent !important;
+  color: white;
+  font-family: CircularSpotifyTextMedium, serif !important;
+  font-size: 14px;
+}
+
+.bannerFooter {
+  max-width: 630px;
+  margin: 40px 0 0;
+}
+
+.premium {
+  display: flex;
+  flex-direction: column;
+  padding: 75px 15px;
+  align-items: center;
+  max-width: 1170px;
+  margin-inline: auto;
+}
+
+.premiumH {
+  font-size: 40px;
+  font-family: CircularSpotifyTextBlack, serif;
+  margin-bottom: 30px;
+}
+
+.premiumAdvs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.premiumAdv {
+  max-width: 285px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.premiumAdvImg {
+  width: 142px;
+  height: 142px;
+  margin: 0 0 40px;
+}
+
+.premiumAdvH {
+  font-size: 21px;
+  font-family: CircularSpotifyTextBlack, serif;
+  margin: 0 0 10px;
+}
+
+.premiumAdvP {
+  font-size: 16px;
+  font-family: CircularSpotifyTextLight, serif;
+}
+
+.plans {
+
+  background-color: #efefef;
+}
+
+.plansContent {
+  padding: 75px 15px;
+  max-width: 1170px;
+  margin-inline: auto;
+}
+
+.plansHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plansHeaderP {
+  margin: 10px 0;
+}
+
+.plansHeaderH {
+  font-size: 40px;
+  font-family: CircularSpotifyTextBlack, serif;
+}
+
+.plansHeaderCardsList {
+  display: flex;
+  justify-content: center;
+}
+
+.plansHeaderCard {
+  margin-right: 7px;
+  height: 20.8px;
+
+  img {
+    width: 29px;
+  }
+}
+
+.plansHeaderCard:last-of-type {
+  font-family: CircularSpotifyTextLight, serif;
+  text-decoration: underline;
+}
+
+.plansList {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 26px;
+}
+
+.plansCard {
+  max-width: 269px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 16px 0 0;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 8px;
+}
+
+.plansCardTopTag {
+  font-family: CircularSpotifyTextMedium, serif;
+  background-color: #0d72ea;
+  color: white;
+  padding: 4px 8px;
+  margin: 0 4px 10px 0;
+  border-radius: 4px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.plansCardH {
+  font-family: CircularSpotifyTextBlack, serif;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.plansCardP {
+  font-family: CircularSpotifyTextLight, serif;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.plansCardPAccounts {
+  @extend .plansCardP;
+  margin-bottom: 20px;
+}
+
+.plansCardHr {
+  align-self: stretch;
+  border-color: rgb(204, 204, 204);
+}
+
+.plansCardProsList {
+  padding: 20px 0 0;
+  margin: 0 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  overflow: hidden;
+}
+
+.plansCardProsItem {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.plansCardProsItemCheck {
+  padding: 0 7px 0 0;
+}
+
+.plansCardProsItemP {
+  font-family: CircularSpotifyTextLight, serif;
+  font-size: 16px;
+}
+
+.plansCardStartBtn {
+  @extend .freeMonthsBtn;
+  width: 100%;
+}
+
+.plansCardFooterP {
+  margin-top: 12px;
+  font-size: 12px;
+  font-family: CircularSpotifyTextLight, serif;
+  color: #535353;
+}
