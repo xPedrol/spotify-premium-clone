@@ -127,10 +127,7 @@ const Home: NextPage = () => {
                                         )}
                                     </div>
                                     <button className={styles.plansCardStartBtn}>Começar</button>
-                                    <p className={styles.plansCardFooterP}>Somente no plano Individual. Depois, é só R$
-                                        19,90/mês. Sujeito a Termos e Condições. Disponível apenas para quem nunca usou
-                                        o
-                                        Premium. A oferta termina em 11/09/2022.</p>
+                                    <p className={styles.plansCardFooterP}>{plan.footerMsg}</p>
                                 </div>
                             )}
                         </div>
