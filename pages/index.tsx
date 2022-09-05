@@ -2,10 +2,11 @@ import type {NextPage} from 'next';
 import styles from '../styles/Index.module.scss';
 import Navbar from "../components/Navbar/Navbar";
 import {plans} from "../constants/plans";
+import Footer from "../components/Footer/Footer";
 
 const Home: NextPage = () => {
     return (
-        <div>
+        <>
             <Navbar/>
             <div className={styles.banner}>
                 <div className={styles.bannerContainer}>
@@ -136,7 +137,8 @@ const Home: NextPage = () => {
                     </div>
                 </div>
             </main>
-        </div>
+            <Footer/>
+        </>
     );
 };
 
